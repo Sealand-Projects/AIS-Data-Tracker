@@ -1,0 +1,106 @@
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+    .overlay {
+        background: white;
+        border-radius: 10px;
+        position: fixed;
+        left: 50%;
+        bottom: -20px;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        width: 500px
+    }
+
+    .my-slider {
+        width: 60%;
+        position: relative;
+        left: 50% / slider;
+        bottom: -8px;
+    }
+
+    .overlay h2{
+        font: 600 16px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        position: relative;
+        left: 10px;
+    }
+
+    .overlay button {
+        font: 600 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: #3386c0;
+        color: #fff;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        position: relative;
+        height: 10%;
+        width: 10%;
+        left: 40%;
+        bottom: 20px;
+    }
+    .overlay button:hover {
+        background-color: #4ea0da;
+    }
+    .overlay button1 {
+        font: 600 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: #3386c0;
+        color: #fff;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+        position: relative;
+        height: 10%;
+        width: 2%;
+        left: 40%;
+        bottom: 20px;
+    }
+    .overlay button1:hover {
+        background-color: #4ea0da;
+    }
+
+    #info {
+        display: table;
+        position: absolute;
+        margin: 0px auto;
+        word-wrap: anywhere;
+        white-space: pre-wrap;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 13px;
+        text-align: center;
+        color: #222;
+        background: white;
+        top: 240px;
+        right: 30px;
+    }
+
+    .mapboxgl-popup {
+        max-width: 200px;
+    }
+
+    .key {
+        font: 600 16px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        position: absolute;
+        background: white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 20px;
+        max-width: 400px;
+        top: -10px;
+        right: 10px;
+    }
+
+    .key i {
+        color: rgb(228, 14, 14);
+    }
+    #vessel{
+        color: #3386c0;
+    }
+    #vessel-path{
+        color: rgba(8, 69, 126, 0.884)
+    }
